@@ -1,0 +1,31 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  },
+  "Microservice": {
+    "Current": {
+      "urls": "http://*:<%= development_CurrentMicroservicePort %>"
+    },
+    "Registration": {
+      "Name": "<%= development_CurrentMicroserviceRegistrationName %>-test",
+      "BaseURI": "http://localhost:<%= development_CurrentMicroservicePort %>",
+      "LogRegistrationCalls": true
+    },
+    "Session": {
+      "URI": "http://localhost:3020"
+    },
+    "DAL": {
+      "BaseURI": "http://localhost:2010",
+    }
+  },
+  "Connection": {
+    "MongoDb": {
+      "ConnectionString": "<%= development_LoggingDBConnectionString %>"
+    }
+  }
+}

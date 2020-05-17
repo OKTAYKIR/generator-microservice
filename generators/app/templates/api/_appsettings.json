@@ -1,0 +1,25 @@
+﻿{
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Error"
+    }
+  },
+  "Microservice": {
+    "Header": {
+      "Keys": {
+        "ApiKey": "X-API-KEY",
+        "Authorization": "Authorization",
+        "Host": "Host",
+        "UserAgent": "User-Agent"
+      }
+    }
+  },
+  "External": {
+  },
+  "Connection": {
+    "MongoDb": {
+      "ConnectionString": "<%= release_LoggingDBConnectionString %>"
+    }
+  }
+}
