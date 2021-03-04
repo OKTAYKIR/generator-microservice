@@ -1,4 +1,6 @@
 # generator-microservice 
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/OKTAYKIR/generator-microservice)
+![GitHub issues](https://img.shields.io/github/issues/OKTAYKIR/generator-microservice)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 > Yeoman generator for building .NET Core microservices
 
@@ -32,6 +34,9 @@ Answer a few questions and you are ready to go!
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
+## ✨ Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=OKTAYKIR/generator-microservice)
 
 ## Show your support
 Please ⭐️ this repository if this project helped you!
